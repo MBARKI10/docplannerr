@@ -1,0 +1,125 @@
+.stats{
+    background: url('./bg.png') no-repeat ;
+    background-size: contain;
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 900px;
+    position: relative;
+    margin-top: 2%;
+    
+}
+h1{
+    font-size: 30px;
+    color: #00b39b;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight:500;
+    letter-spacing: .3px;
+    margin-top: 8%;
+    margin-left: -18%;
+}
+
+.grid{
+    margin-left: 19%;
+    margin-top: 4%;
+   
+}
+
+p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+    margin-left: -18%;
+    margin-top: 5%;
+
+}
+
+.card{
+    height: 250px;
+    width: 250px;
+    border-radius: 2%;
+}
+.flag{
+    width: 35px;
+    height: 35px;
+   
+    margin-top: 8%;  
+}
+.text-header{
+    margin-top: 5%;
+     margin-left: 20%;
+     max-width: 70%;
+     word-wrap: break-word; 
+    font-size: 20px;  
+    color: #00b39b;
+
+}
+.text{
+    margin-top: 10%;
+     margin-left: 3%;
+     max-width: 100%;
+    font-size: 12px;
+    word-wrap: break-word; 
+}
+
+.bloc{
+    display: flex;
+    flex-wrap: wrap;
+    width: 38%;
+    justify-content: space-between;
+    height: 20%;
+    margin-top: .5%;
+}
+
+.text-header{
+    margin-left: 20%;
+}
+.header-offices{
+    margin-top: 50%;
+}
+
+
+@media only screen and (max-width: 376px){
+    .grid{
+        display: none;
+    }
+    .stats{
+        background-image:url() ;
+    }
+
+    /* .bloc{
+        display: flex;
+        flex-wrap: wrap;
+        width: 360px;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        margin-top: .5%;
+        position: relative;
+        margin-left: 20px !important;
+    } */
+    
+    }
+/* 
+    @media only screen and (max-width: 420px){
+        .grid{
+            display: none;
+        }
+        .stats{
+            background-image:url() ;
+        } */
+    
+        /* .bloc{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 20%;
+            margin-top: .5%;
+            position: relative;
+            margin-left: 150px;
+        } */
+        
+        /* } */

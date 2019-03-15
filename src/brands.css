@@ -1,0 +1,48 @@
+.brands>h1{
+    text-align: center;
+    font-size: 26px;
+    color: #00b39b;
+    font-family: Arial;
+    font-weight: 300;
+    float:left;
+    display: block;
+    margin-left: 15%; 
+    margin-top: 4%;
+
+}
+.brands-logo {
+font-weight: 200;
+font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+width: 100%;
+list-style: none;
+flex-wrap: wrap;
+padding: 4%;
+text-align: center;
+font-size: 16px;
+width: 70%;
+padding-left: 15%;
+padding-right: 14%;
+fill: hsla(0,0%,67%,.7);
+}
+.brands-logo:hover{
+color: #00b39b;
+}
+
+@media only screen and (max-width: 420px){
+.brands{
+margin-left: 60px;
+}
+}
+
+@media only screen and (max-width: 768px){
+.brands{
+    margin-left: 200px;
+}
+}
+
+
+@media only screen and (max-width: 380px){
+.brands{
+    margin-left: 70px;
+}
+}

@@ -1,0 +1,83 @@
+
+
+ .heal{
+    height: 55px;
+    width: 50px;
+    margin-top: 3%;
+     margin-left: 48%;   
+}
+.p{
+   text-align: center;
+   margin-top: 2%;
+   color: #00b39b;
+   font-size: 35px;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+   font-weight: 300;
+   margin-bottom: 45px;
+   margin-left: 2%;
+
+}
+.p1{
+   line-height: 1.75;
+   font-weight: 400;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+   color: #747474;
+   margin-right: 10%;
+
+}
+
+.p2{
+   line-height: 1.75;
+   font-weight: 400;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+   color: #747474;
+   margin-left: 20%;
+ 
+
+}
+.main-main{
+  margin-left: 25%;    
+
+}
+
+   
+
+  @media only screen and (max-width: 375px){
+        .heal{
+           position: relative;
+           left: 25px;
+           }
+     .p{
+         position: relative;
+         left: 35px;
+     }
+     .p1{
+        width: 100%;
+     }
+     .main-main{
+        margin-right: -60px;
+     }
+     
+
+      
+}
+
+@media only screen and (max-width: 420px){
+  .heal{
+     position: relative;
+     left: 18px;
+     }
+.p{
+   position: relative;
+   left: 22px;
+}
+.p1{
+  width: 100%;
+}
+.main-main{
+  margin-right: -60px;
+}
+
+
+
+}

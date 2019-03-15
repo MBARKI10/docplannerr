@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import Fade from "./use-section";
+import Header from "./header";
+import Header1 from "./header1";
+import Brands from  "./brands";
+import Stats from "./stats";
+import Offices from "./offices";
+import "bootstrap/dist/css/bootstrap.min.css";
+// import {Animated} from "react-animated-css";
 import './App.css';
+
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Header/>
+        <Header1/>
+        <Fade/>
+        < Brands />
+        <Stats/>
+        <Offices/>
       </div>
     );
   }
